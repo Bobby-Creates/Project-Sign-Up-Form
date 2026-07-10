@@ -14,16 +14,138 @@
     border: 0;
     padding:0;
     margin: 0;
+    display: flex;
+ 
+  
 }
 .aynThor {
    display: flex;
-width: 30%;
-height: 100vh;
+   flex-flow:row;
+ 
+ width: 30vw;
+ height: 100%;
 justify-content: flex-start;
 background-image: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-margin: -60,-60,0,0;
+overflow: hidden;
+
+}
+.odinpic {
+    display: flex;
+    width: calc(10vw + 2rem - 6em);
+    height:auto;
+    align-self: center;
+    justify-content: center;
 }
 
+input:focus {
+   
+    border: 3px solid blue;
+    
+  
+}
+.labnIn{
+  display:flex;
+  flex-flow:column;
+  margin-bottom:2vh;
+}
+label{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    color:rgb(0, 0, 0);
+    margin-bottom: -0.8vw;
+    margin-left: 2vw;
+}
+.west {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+ align-self: flex-end;
+    color: white;
+}
+fieldset{
+ 
+    border:none;
+    display:flex;
+    flex-flow: row wrap;
+    height:28vh;
+    width:35vw;
+    
+    
+}
+a{
+ color: darkolivegreen;
+}
+.turnip{
+    display: flex;
+     margin-right: 10vw;
+      margin-top: -14vh;
+
+}
+.btn{
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-content: center;
+       width: 10vw;
+    height: 5vh;
+    margin-right: 10vw;
+    margin-bottom: 18vh;
+    margin-top: -13vh;
+    border-radius: 5px;
+    border-color: white;
+    font-weight: 900;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: darkolivegreen;
+    flex-flow:row wrap;
+}
+
+
+input{
+   
+    height:3vh;
+    border-radius:0.6vh;
+    margin-top:10px;
+    border-color:#E5E7EB;
+    width:17vh;
+    margin-left: 2vw;
+}
+fieldset > div {
+    margin-bottom:5vh;
+    font-size: 1rem;
+    color:rgb(20, 20, 20);
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    display: flex;
+    flex-flow:column;
+    height:41vh;
+    width: 42vw;
+}
+.lateral{
+    display: flex;
+    flex-flow: row;
+    height:19vh;
+    align-self: center;
+    width: 100%;
+    justify-content: center;
+    background-color: rgba(3, 1, 1, 0.5);
+    margin-bottom: 30vh;
+    
+}
+.picwords{
+    display: flex;
+    font-family: Odin,serif;
+    
+    color:beige;
+    font-size: calc(10vw + 1rem - 3.9em);
+    align-self: center; 
+}
+
+input:invalid{
+    border-color:red;
+}
 
 .signPlace{
 display: flex;
@@ -40,8 +162,16 @@ align-content: center;
     flex-flow:wrap;
     margin-top: 20vh;
     margin-left: 10vw;
-    font-size: 1.7rem;
+    font-size: 1.1rem;
 
-    font-family: Odin, Arial, Helvetica, sans-serif;
+    font-family:  Arial, Helvetica, sans-serif;
     font-weight: bold;
+}
+.legend{
+    display:flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    margin-bottom: 4vh;
+    color:gray
 }
